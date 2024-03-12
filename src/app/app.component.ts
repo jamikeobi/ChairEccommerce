@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ChairEcommerceAngular';
+
+  counter: number = 0;
+
+  increaseCounter() {
+    this.counter++;
+  }
 }
